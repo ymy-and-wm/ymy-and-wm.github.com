@@ -1,0 +1,65 @@
+
+
+#div_ma_title {
+    top: 260px; 
+    left: 0px;
+    width: 500px; 
+    height: 260px; 
+    padding: 60px;
+    color: black;
+    font: bold 2em "Microsoft YaHei","微软雅黑","Arial";
+    text-align: center;
+    opacity: 0;
+}
+
+#div_music_album .div_error {
+    display: none;
+    left: 170px;
+    top: 100px;
+    width: 160px;
+    height: 40px;
+    padding: 10px;
+    background-color: rgba(128,128,128,.7);
+    border-radius: 5px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+@-webkit-keyframes fade_in{
+    from  {opacity: 0}
+    to    {opacity: 1}
+}
+@-webkit-keyframes fade_out{
+    from  {opacity: 1}
+    to    {opacity: 0}
+}
+
+#div_music_album .swiper-wrapper{
+    display: none;
+    position: relative;
+    transition-timing-function: ease-in-out;
+}
+#div_music_album .swiper-slide {
+    width: 500px;
+    height: 815px; 
+}
+
+#div_music_album .div_sw_img {
+    position: absolute;
+    width: 500px;
+}
+#div_music_album .img_sw_ani {
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

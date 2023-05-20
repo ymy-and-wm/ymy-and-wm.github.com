@@ -1,0 +1,100 @@
+
+#div_btn_inner{ /*按钮部分内层，用于定位*/
+    width: 500px;
+    padding-left: 430px;
+    color:white; 
+    text-shadow:1px 1px 1px #000;  
+}
+
+.div_btn {
+    position: fixed;
+    z-index: 999;
+    width: 42px; 
+    height: 42px;
+    border: 2px solid white;
+    border-radius: 50%; 
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center; 
+    cursor: pointer;  
+} 
+#div_music {
+    border: none;
+    top: 30px; 
+}
+#div_record {
+    top: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#div_support { 
+    top: 170px; 
+    background-color: rgba(0, 0, 0, 0.3);
+}        
+
+.div_music_tips {  
+    position: fixed;
+    top: 70px; 
+    z-index: 999;
+}
+.div_record_tips {  
+    position: fixed;
+    top: 140px;
+    z-index: 999;
+}
+
+.div_btn_big {
+    position: fixed;
+    z-index:999;
+    width: 52px; 
+    padding: 5px 0px;
+    background-color: rgba(112,128,144, 0.6); 
+    border-radius: 5px; 
+    font-size: 18px;
+    text-align: center; 
+    cursor: pointer; 
+}
+#div_s_editing {
+    top: 360px;
+}
+#div_s_audio {
+    top: 440px;
+}
+#div_s_templet {
+    top: 520px;
+}
+#div_s_menu {
+    top: 600px;
+}
+
+@-webkit-keyframes rotate_round{
+    0%{
+        -webkit-transform:rotate(0deg);
+    }
+    100%{
+        -webkit-transform:rotate(360deg);
+    }
+}
+@-webkit-keyframes rotate_vibrate{ /*audio按钮的动画*/
+    0%  {
+        -webkit-transform:rotate(0deg);
+    }
+    40% {
+        -webkit-transform:rotate(0deg);
+    }
+    50% {
+        -webkit-transform:rotate(30deg);
+    }
+    60% {
+        -webkit-transform:rotate(0deg);
+    }
+    70% {
+        -webkit-transform:rotate(30deg);
+    }
+    80% {
+        -webkit-transform:rotate(0deg);
+    }
+    100% {
+        -webkit-transform:rotate(0deg);
+    }
+}
+
