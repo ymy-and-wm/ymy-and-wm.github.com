@@ -259,14 +259,14 @@ var arr_as_music=[
 	// 'http://public.jiatuma.com/i_love_you.mp3',
 	// 'http://public.jiatuma.com/qing_fei_deyi.mp3',
 	// 'http://public.jiatuma.com/jiushi_aini.mp3',
-	'https://other-web-ri01-sycdn.kuwo.cn/dfb5b432b1de48dd368538905181f941/64689070/resource/n3/52/87/2500649018.mp3',
-	'https://other-web-ri01-sycdn.kuwo.cn/dfb5b432b1de48dd368538905181f941/64689070/resource/n3/52/87/2500649018.mp3',
-	'https://other-web-ri01-sycdn.kuwo.cn/dfb5b432b1de48dd368538905181f941/64689070/resource/n3/52/87/2500649018.mp3',
-	'https://other-web-ri01-sycdn.kuwo.cn/dfb5b432b1de48dd368538905181f941/64689070/resource/n3/52/87/2500649018.mp3',
-	'https://other-web-ri01-sycdn.kuwo.cn/dfb5b432b1de48dd368538905181f941/64689070/resource/n3/52/87/2500649018.mp3',
-	'https://other-web-ri01-sycdn.kuwo.cn/dfb5b432b1de48dd368538905181f941/64689070/resource/n3/52/87/2500649018.mp3',
-	'https://other-web-ri01-sycdn.kuwo.cn/dfb5b432b1de48dd368538905181f941/64689070/resource/n3/52/87/2500649018.mp3',
-	'https://other-web-ri01-sycdn.kuwo.cn/dfb5b432b1de48dd368538905181f941/64689070/resource/n3/52/87/2500649018.mp3',
+	'https://other-web-ri01-sycdn.kuwo.cn/af0c95ee45cccb50bf236794b679d2a7/6468d336/resource/n3/52/87/2500649018.mp3',
+	'https://other-web-ri01-sycdn.kuwo.cn/af0c95ee45cccb50bf236794b679d2a7/6468d336/resource/n3/52/87/2500649018.mp3',
+	'https://other-web-ri01-sycdn.kuwo.cn/af0c95ee45cccb50bf236794b679d2a7/6468d336/resource/n3/52/87/2500649018.mp3',
+	'https://other-web-ri01-sycdn.kuwo.cn/af0c95ee45cccb50bf236794b679d2a7/6468d336/resource/n3/52/87/2500649018.mp3',
+	'https://other-web-ri01-sycdn.kuwo.cn/af0c95ee45cccb50bf236794b679d2a7/6468d336/resource/n3/52/87/2500649018.mp3',
+	'https://other-web-ri01-sycdn.kuwo.cn/af0c95ee45cccb50bf236794b679d2a7/6468d336/resource/n3/52/87/2500649018.mp3',
+	'https://other-web-ri01-sycdn.kuwo.cn/af0c95ee45cccb50bf236794b679d2a7/6468d336/resource/n3/52/87/2500649018.mp3',
+	'https://other-web-ri01-sycdn.kuwo.cn/af0c95ee45cccb50bf236794b679d2a7/6468d336/resource/n3/52/87/2500649018.mp3',
 ];
 
 
