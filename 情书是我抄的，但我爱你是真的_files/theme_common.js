@@ -127,63 +127,63 @@ function record_switch(){ //切换
 
 
 
-// //以下是微信相关的设置
-// if(typeof(signPackage)!='undefined'){
-//     console.log(signPackage);
-//     init_wx_conf();
-// }
-// function init_wx_conf(){
-//     wx.config({
-//         debug: false,
-//         appId: signPackage['appid'],
-//         timestamp: signPackage['timestamp'],
-//         nonceStr: signPackage['nonceStr'],
-//         signature: signPackage['signature'],
-//         jsApiList: [
-//             'checkJsApi',
-//             'updateAppMessageShareData',
-//             'updateTimelineShareData'
-//         ]
-//     });
+//以下是微信相关的设置
+if(typeof(signPackage)!='undefined'){
+    console.log(signPackage);
+    init_wx_conf();
+}
+function init_wx_conf(){
+    wx.config({
+        debug: false,
+        appId: signPackage['appid'],
+        timestamp: signPackage['timestamp'],
+        nonceStr: signPackage['nonceStr'],
+        signature: signPackage['signature'],
+        jsApiList: [
+            'checkJsApi',
+            'updateAppMessageShareData',
+            'updateTimelineShareData'
+        ]
+    });
 
-//     wx.ready(function(){
-//         console.log('wx.ready success to start');
-//         if(theme!='audio_list' || (theme=='audio_list' && start!='null')){
-//             audio_music.play(); //触发音乐自动播放
-//         }else{
-//             audio_music.pause(); //触发音乐自动播放
-//             console.log('audio_list && no start');
-//         } 
+    wx.ready(function(){
+        console.log('wx.ready success to start');
+        if(theme!='audio_list' || (theme=='audio_list' && start!='null')){
+            audio_music.play(); //触发音乐自动播放
+        }else{
+            audio_music.pause(); //触发音乐自动播放
+            console.log('audio_list && no start');
+        } 
         
-//         wx.updateAppMessageShareData({ 
-//             title: wx_share_data['title'], // 分享标题
-//             desc: wx_share_data['desc'], // 分享描述
-//             link: wx_share_data['link'], // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-//             imgUrl: wx_share_data['imgUrl'], // 分享图标
-//             success: function () {
-//                 console.log('wx.updateAppMessageShareData 设置成功');
-//             }
-//         });
-//         wx.updateTimelineShareData({ 
-//             title: wx_share_data['title'], // 分享标题
-//             link: wx_share_data['link'], // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-//             imgUrl: wx_share_data['imgUrl'], // 分享图标
-//             success: function () {
-//                 console.log('wx.updateTimelineShareData 设置成功');
-//             }
-//         })
-//     });
+        wx.updateAppMessageShareData({ 
+            title: wx_share_data['title'], // 分享标题
+            desc: wx_share_data['desc'], // 分享描述
+            link: wx_share_data['link'], // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+            imgUrl: wx_share_data['imgUrl'], // 分享图标
+            success: function () {
+                console.log('wx.updateAppMessageShareData 设置成功');
+            }
+        });
+        wx.updateTimelineShareData({ 
+            title: wx_share_data['title'], // 分享标题
+            link: wx_share_data['link'], // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+            imgUrl: wx_share_data['imgUrl'], // 分享图标
+            success: function () {
+                console.log('wx.updateTimelineShareData 设置成功');
+            }
+        })
+    });
 
-//     wx.error(function(res){
-//         console.log(res);
-//         if(theme!='audio_list' || (theme=='audio_list' && start!='null')){
-//             audio_music.play(); //触发音乐自动播放
-//         }else{
-//             audio_music.pause(); //触发音乐自动播放
-//             console.log('audio_list && no start');
-//         }
-//     });
-// }
+    wx.error(function(res){
+        console.log(res);
+        if(theme!='audio_list' || (theme=='audio_list' && start!='null')){
+            audio_music.play(); //触发音乐自动播放
+        }else{
+            audio_music.pause(); //触发音乐自动播放
+            console.log('audio_list && no start');
+        }
+    });
+}
 
 
 
