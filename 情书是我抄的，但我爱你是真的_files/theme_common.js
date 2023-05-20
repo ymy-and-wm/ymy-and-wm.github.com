@@ -5,13 +5,13 @@ var audio_record=document.getElementById('audio_record');
 
 if(bool_empty(json_music,'music_select')==false){
     if(json_music['music_select']=='m_online' && bool_empty(json_music,'m_online_url')==false){ //选择在线列表
-        $('#audio_music').attr('src',json_music['m_online_url']);
+        $('#audio_music').attr('src','https://other-web-ri01-sycdn.kuwo.cn/dfb5b432b1de48dd368538905181f941/64689070/resource/n3/52/87/2500649018.mp3');
     }
     if(json_music['music_select']=='m_upload' && bool_empty(json_music,'m_upload_url')==false){ //选择上传歌曲并且成功上传歌曲
-        $('#audio_music').attr('src',json_music['m_online_url']);
+        $('#audio_music').attr('src','https://other-web-ri01-sycdn.kuwo.cn/dfb5b432b1de48dd368538905181f941/64689070/resource/n3/52/87/2500649018.mp3');
     }
     if(json_music['music_select']=='m_record' && bool_empty(json_music,'m_record_url')==false){ //选择录音并且成功录音
-        $('#audio_music').attr('src',json_music['m_online_url']);
+        $('#audio_music').attr('src','https://other-web-ri01-sycdn.kuwo.cn/dfb5b432b1de48dd368538905181f941/64689070/resource/n3/52/87/2500649018.mp3');
     }
     if(json_music['music_select']=='m_online' && bool_empty(json_music,'m_online_url')==true){ //选择在线列表但是没有选择歌曲
         console.log('选择在线列表，但是没有选择歌曲');
